@@ -8,8 +8,7 @@ This is a fully responsive restaurant website that includes various routes and f
 
 ## Demo
 
-https://www.kapwing.com/videos/665dee1b24ea7ab9063de911
-
+https://www.kapwing.com/videos/669e6daa099a51b26c4c5f16
 
 ## Table of Content
 
