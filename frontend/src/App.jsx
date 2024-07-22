@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/success" element={<Success/>}/>
         
         <Route path="/orderonline" element={<OrderOnline/>}/>
-        <Route path="/cart" element={<Cart/>}/>
+        <Route path="/cart" element={<CartContent/>}/>
         <Route path="/checkout" element={<Checkout />} /> 
         <Route path="/successfullpayment" element={<SuccessPayment/>} /> 
         <Route path="*" element={<NotFound/>}/>
