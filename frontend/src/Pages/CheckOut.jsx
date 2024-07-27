@@ -41,13 +41,13 @@ const Checkout = () => {
         <ul>
           {cart.map((item, index) => (
             <li key={index}>
-              {item.name} x {item.quantity}: ${item.price * item.quantity}
+              {item.name} x {item.quantity}: Rs {item.price * item.quantity}
             </li>
           ))}
         </ul>
-        <p>Subtotal: ${getTotalPrice()}</p>
-        <p>GST (18%): ${getGST(getTotalPrice())}</p>
-        <h2>Total Amount: ${getFinalAmount()}</h2>
+        <p>Subtotal: Rs {getTotalPrice()}</p>
+        <p>GST (18%): Rs {getGST(getTotalPrice())}</p>
+        <h2>Total Amount: Rs {getFinalAmount()}</h2>
         <div className="delivery-details">
           <h2>Delivery Address</h2>
           <p>Name: {customerDetails.name}</p>

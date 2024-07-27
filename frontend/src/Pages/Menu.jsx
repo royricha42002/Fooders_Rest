@@ -9,29 +9,29 @@ const Menu = () => {
         {
           name: "Starters",
           items: [
-            { name: "Paneer Tikka", price: "10" },
-            { name: "Samosa", price: "5" },
-            { name: "Chole Bhature", price: "12" },
-            { name: "Aloo Tikki", price: "7" },
-            { name: "Veg Pakora", price: "6" },
+            { name: "Paneer Tikka", price: "180" },
+            { name: "Samosa", price: "25" },
+            { name: "Chole Bhature", price: "150" },
+            { name: "Aloo Tikki", price: "100" },
+            { name: "Veg Pakora", price: "150" },
           ],
         },
         {
           name: "Main Course",
           items: [
-            { name: "Butter Chicken", price: "15" },
-            { name: "Palak Paneer", price: "14" },
-            { name: "Biryani", price: "13" },
-            { name: "Dal Makhani", price: "10" },
-            { name: "Rogan Josh", price: "16" },
+            { name: "Butter Chicken", price: "250" },
+            { name: "Palak Paneer", price: "180" },
+            { name: "Biryani", price: "300" },
+            { name: "Dal Makhani", price: "180" },
+            { name: "Rogan Josh", price: "300" },
           ],
         },
         {
           name: "Breads",
           items: [
-            { name: "Naan", price: "3" },
-            { name: "Roti", price: "2" },
-            { name: "Paratha", price: "4" },
+            { name: "Naan", price: "25" },
+            { name: "Roti", price: "10" },
+            { name: "Aloo Paratha", price: "60" },
           ],
         },
       ],
@@ -42,21 +42,21 @@ const Menu = () => {
         {
           name: "Starters",
           items: [
-            { name: "Spring Rolls", price: "8" },
-            { name: "Manchow Soup", price: "7" },
-            { name: "Veg Momos", price: "6" },
-            { name: "Chilli Paneer", price: "9" },
-            { name: "Honey Chilli Potato", price: "8" },
+            { name: "Spring Rolls", price: "100" },
+            { name: "Manchow Soup", price: "100" },
+            { name: "Veg Momos", price: "70" },
+            { name: "Chilli Paneer", price: "120" },
+            { name: "Honey Chilli Potato", price: "100" },
           ],
         },
         {
           name: "Main Course",
           items: [
-            { name: "Fried Rice", price: "12" },
-            { name: "Hakka Noodles", price: "10" },
-            { name: "Schezwan Noodles", price: "11" },
-            { name: "Kung Pao Tofu", price: "13" },
-            { name: "Sweet and Sour Vegetables", price: "12" },
+            { name: "Fried Rice", price: "100" },
+            { name: "Hakka Noodles", price: "120" },
+            { name: "Schezwan Noodles", price: "130" },
+            { name: "Kung Pao Tofu", price: "100" },
+            { name: "Sweet and Sour Vegetables", price: "100" },
           ],
         },
       ],
@@ -67,17 +67,17 @@ const Menu = () => {
         {
           name: "Starters",
           items: [
-            { name: "Bruschetta", price: "7" },
-            { name: "Garlic Bread", price: "6" },
+            { name: "Bruschetta", price: "170" },
+            { name: "Garlic Bread", price: "100" },
           ],
         },
         {
           name: "Main Course",
           items: [
-            { name: "Margherita Pizza", price: "14" },
-            { name: "Pasta Alfredo", price: "13" },
-            { name: "Lasagna", price: "15" },
-            { name: "Risotto", price: "12" },
+            { name: "Margherita Pizza", price: "200" },
+            { name: "Pasta Alfredo", price: "140" },
+            { name: "Lasagna", price: "160" },
+            { name: "Risotto", price: "130" },
           ],
         },
       ],
@@ -85,19 +85,19 @@ const Menu = () => {
   ];
 
   const beverages = [
-    { name: "Coke", price: "3" },
-    { name: "Lemonade", price: "4" },
-    { name: "Mango Lassi", price: "5" },
-    { name: "Masala Chai", price: "2" },
-    { name: "Iced Coffee", price: "4" },
+    { name: "Coke", price: "60" },
+    { name: "Lemonade", price: "40" },
+    { name: "Mango Lassi", price: "50" },
+    { name: "Masala Chai", price: "20" },
+    { name: "Iced Coffee", price: "80" },
   ];
 
   const desserts = [
-    { name: "Gulab Jamun", price: "5" },
-    { name: "Rasgulla", price: "5" },
-    { name: "Tiramisu", price: "6" },
-    { name: "Cheesecake", price: "7" },
-    { name: "Brownie with Ice Cream", price: "8" },
+    { name: "Gulab Jamun", price: "30" },
+    { name: "Rasgulla", price: "30" },
+    { name: "Tiramisu", price: "60" },
+    { name: "Cheesecake", price: "70" },
+    { name: "Brownie with Ice Cream", price: "80" },
   ];
 
   return (
@@ -126,7 +126,7 @@ const Menu = () => {
           {beverages.map((item, i) => (
             <div className="menu-item" key={i}>
               <span>{item.name}</span>
-              <span>${item.price}</span>
+              <span>Rs {item.price}</span>
             </div>
           ))}
         </div>
@@ -137,7 +137,7 @@ const Menu = () => {
           {desserts.map((item, i) => (
             <div className="menu-item" key={i}>
               <span>{item.name}</span>
-              <span>${item.price}</span>
+              <span>Rs {item.price}</span>
             </div>
           ))}
         </div>

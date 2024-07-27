@@ -74,15 +74,15 @@ const menuData = [
       {
         "name": "Desserts",
         "items": [
-          { "name": "Fortune Cookies", "price": 4, "image": "./fortune-cookies.jpeg" },
-          { "name": "Mango Pudding", "price": 5, "image": "./mango-pudding.jpeg" }
+          { "name": "Fortune Cookies", "price": 40, "image": "./fortune-cookies.jpeg" },
+          { "name": "Mango Pudding", "price": 50, "image": "./mango-pudding.jpeg" }
         ]
       },
       {
         "name": "Beverages",
         "items": [
-          { "name": "Green Tea", "price": 3, "image": "./green-tea.jpeg" },
-          { "name": "Iced Lemon Tea", "price": 4, "image": "./iced-lemon-tea.jpeg" }
+          { "name": "Green Tea", "price": 50, "image": "./green-tea.jpeg" },
+          { "name": "Iced Lemon Tea", "price": 40, "image": "./iced-lemon-tea.jpeg" }
         ]
       }
     ]
@@ -93,18 +93,18 @@ const menuData = [
       {
         "name": "Starters",
         "items": [
-          { "name": "Bruschetta", "price": 7, "image": "./bruschetta.jpeg" },
-          { "name": "Garlic Bread", "price": 5, "image": "./garlic-bread.jpeg" },
-          { "name": "Caprese Salad", "price": 8, "image": "./caprese-salad.jpeg" }
+          { "name": "Bruschetta", "price": 170, "image": "./bruschetta.jpeg" },
+          { "name": "Garlic Bread", "price": 100, "image": "./garlic-bread.jpeg" },
+          { "name": "Caprese Salad", "price": 80, "image": "./caprese-salad.jpeg" }
         ]
       },
       {
         "name": "Main Course",
         "items": [
-          { "name": "Margherita Pizza", "price": 12, "image": "./margherita-pizza.jpeg" },
-          { "name": "Spaghetti Carbonara", "price": 14, "image": "./sphagetti-carbonara.jpeg" },
-          { "name": "Lasagna", "price": 16, "image": "./lasagne.jpeg" },
-          { "name": "Penne Arrabbiata", "price": 13, "image": "./penne-arrabbita.jpeg" }
+          { "name": "Margherita Pizza", "price": 200, "image": "./margherita-pizza.jpeg" },
+          { "name": "Spaghetti Carbonara", "price": 140, "image": "./sphagetti-carbonara.jpeg" },
+          { "name": "Lasagna", "price": 160, "image": "./lasagne.jpeg" },
+          { "name": "Penne Arrabbiata", "price": 130, "image": "./penne-arrabbita.jpeg" }
         ]
       }
     ]
