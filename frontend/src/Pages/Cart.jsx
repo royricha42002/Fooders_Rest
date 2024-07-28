@@ -23,6 +23,8 @@ const Cart = () => {
     setCart(savedCart);
   }, []);
 
+  
+
   const updateQuantity = (index, quantity) => {
     const updatedCart = [...cart];
     if (quantity > 0) {
